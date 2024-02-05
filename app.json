@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "Insight",
+    "slug": "calculoFinalApp",
+    "version": "1.2.5",
+    "orientation": "portrait",
+    "icon": "./images/LogoAlt.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./images/Splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "versionCode": 13,
+      "adaptiveIcon": {
+        "foregroundImage": "./images/LogoAlt.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.kalirodri.calculoFinalApp"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "416b6469-2cc7-482d-b5af-9ce20d7048c6"
+      }
+    }
+  }
+}
